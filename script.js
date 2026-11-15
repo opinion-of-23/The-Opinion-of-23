@@ -4,8 +4,112 @@
 
 const articles = [
 
+{
+  slug: "price-hikes-rising-burden-common-people",
+  title: "Price Hikes: The Rising Burden on the Common People",
+  category: "Society & Economy",
+  date: "Opinion",
+  image: "assets/Karnatakas Rising Cost of Living.png",
+  alt: "Editorial illustration showing rising milk prices, Karnataka bus fares and their impact on common people",
+  excerpt:
+    "Milk prices and bus fares are increasing in Karnataka. Why are these decisions being made, who bears the burden, and should rising costs be accompanied by rising incomes?",
 
-  {
+  paragraphs: [
+    "The news making headlines this week is the increase in the prices of milk and public transportation, particularly buses, in Karnataka. These decisions have sparked considerable discussion among the public, with people questioning the reasons behind the increases and their impact on everyday life.",
+
+    "So, I thought of looking into the explanations given by the government, understanding the arguments surrounding these decisions, and, finally, sharing my own perspective.",
+
+    "Let's begin.",
+
+    "In Karnataka, Nandini has a significant presence in the dairy market. Its operations are led by a cooperative system that works with the involvement of dairy farmers, elected representatives and government-supported institutions.",
+
+    "For quite some time, dairy cooperatives had been requesting the government to increase the price of milk by around ₹12–₹15 per litre.",
+
+    "The cooperatives put forward a few reasons for this demand.",
+
+    "Firstly, the cost of packaging materials and transportation had increased. According to them, managing these rising operational expenses within the existing budget had become increasingly difficult.",
+
+    "Secondly, they pointed out that neighbouring states offered better prices and incentives to dairy farmers. As a result, some farmers were considering supplying their milk to neighbouring states, where they could receive better returns. This could potentially affect milk procurement and supply within Karnataka.",
+
+    "Considering these demands, the government decided to increase the price of milk by ₹8, out of which ₹7 would be passed on to dairy farmers.",
+
+    "Another important point worth highlighting is that this decision was also discussed in the Karnataka Legislative Assembly, where the opposition reportedly agreed with the decision and supported it.",
+
+    "Interestingly, this is not an issue limited to Karnataka. Amul, a well-known dairy brand with a presence across India, also announced a price increase just two days earlier, citing similar reasons related to rising costs.",
+
+    "That brings us to the second price increase.",
+
+    "The increase in bus fares has attracted considerable public attention and criticism.",
+
+    "The explanation provided by the government is that fuel prices have been rising consistently, making it difficult to manage transportation expenses within the existing budget.",
+
+    "However, the opposition has presented a different argument. It has questioned the government's financial management and pointed towards the expenditure involved in implementing schemes such as the Shakti scheme, under which women in Karnataka can travel free of charge on eligible government buses.",
+
+    "The government, however, has rejected the argument that the Shakti scheme is responsible for the fare increase.",
+
+    "Following these discussions, the government announced an increase in bus fares ranging from approximately 22% to 30%.",
+
+    "Now that we have looked at the explanations and arguments surrounding both decisions, I would like to share my perspective.",
+
+    "Firstly, I was genuinely unhappy to see this news coming out in the middle of the festival season.",
+
+    "Festivals are a time when people look forward to spending time with their families and friends, travelling, celebrating and enjoying themselves. For many ordinary families, even a small increase in everyday expenses makes a difference to their celebrations and monthly budgets.",
+
+    "I feel the government could have been more considerate about the timing of these announcements. The decisions could have been communicated after the festival season, allowing people to enjoy this important time without having another financial concern added to their minds.",
+
+    "I understand that rising operational costs and economic pressures cannot always be ignored. However, the timing and manner in which such decisions are implemented also matter.",
+
+    "Here is a simple thought that I would like to put forward.",
+
+    "Whenever the prices of essential commodities and services increase, shouldn't the income of working professionals and ordinary employees also grow at a reasonable pace?",
+
+    "Think about it. When the cost of milk, transportation, groceries and other necessities increases, people are expected to adjust their expenses and manage with the income they already receive.",
+
+    "But how long can this continue?",
+
+    "My argument is simple: if the cost of living keeps increasing, salaries and wages should also improve accordingly. Otherwise, the gap between what people earn and what they spend will continue to widen.",
+
+    "I believe everyone has the right to live happily, meet their basic needs and experience prosperity. Economic progress should not be limited to businesses, institutions or governments. Ordinary working people should also be able to experience its benefits.",
+
+    "A balanced approach, where the income of people keeps pace with the rising cost of living, would create a much healthier situation for everyone.",
+
+    "There is one more point I would like to raise: the financial relationship between the Central Government and the state governments.",
+
+    "I strongly believe that every state should have the freedom to introduce schemes and initiatives that genuinely benefit its people. Different states have different requirements, economic conditions and social challenges. Therefore, a scheme that works for one state may not necessarily be suitable for another.",
+
+    "However, for states to introduce and sustain such initiatives, financial support is also important.",
+
+    "The reason I bring the Central Government into this discussion is that a portion of the taxes collected across the country goes into the Centre's revenue pool, from which resources are also distributed among states according to established financial arrangements.",
+
+    "Therefore, I believe there should be fairness and transparency in how financial resources are allocated.",
+
+    "If people in my state contribute to the country's revenue, they should also have a reasonable expectation that their state will receive its fair share of resources and support.",
+
+    "I also have a question regarding the special financial allocations and assistance announced for states such as Andhra Pradesh and Bihar. Why do we not see comparable support and opportunities for other states, including Karnataka?",
+
+    "I am not arguing that those states should not receive financial assistance. Every state deserves development and support. My question is whether the distribution of resources adequately considers the contributions, needs and development priorities of all states.",
+
+    "A fairer approach could allow state governments to design more meaningful schemes, address local problems and improve the lives of their people.",
+
+    "I understand that increasing prices may sometimes become necessary because of rising operational costs and other economic factors. I am not arguing that prices should never increase.",
+
+    "But whenever such decisions are made, the government must also consider the financial condition of ordinary people, the timing of announcements and the broader impact on their daily lives.",
+
+    "Development should not mean that people are constantly expected to adjust to rising expenses without receiving corresponding improvements in their income and living standards.",
+
+    "Every state deserves the opportunity to grow, introduce meaningful initiatives and serve its people. At the same time, financial resources should be allocated fairly, keeping the interests of all states in mind.",
+
+    "Ultimately, the purpose of governance should be to make people's lives better, not simply to manage increasing expenses.",
+
+    "My belief is simple: economic progress should reach the common people, not come at their expense."
+  ],
+
+  sourceNote:
+    "This is an opinion article discussing milk prices, public transportation fares, the Shakti scheme and financial support to Indian states. Verify the reported price increases, government explanations, Assembly discussions and financial allocation figures against reliable sources before publication."
+},
+
+
+{
   slug: "india-innovation-and-democracy-evms",
   title: "India, Innovation and Democracy: Are We Moving Forward or Looking Backward?",
   category: "Society & Governance",
@@ -67,7 +171,8 @@ const articles = [
     "This is an opinion article reflecting the author's perspective on India's electoral technology, democratic processes and civic responsibility. Historical claims and comparisons of electoral systems should be supported with reliable sources before publication."
 },
 
-  
+
+
   {
     slug: "h1b-visa-and-national-development",
     title: "Trump Faces Backlash in Court: My Thoughts on the H-1B Visa Debate",
@@ -369,8 +474,9 @@ function renderArticle() {
           `<p>${escapeHTML(paragraph)}</p>`
         ).join("")}
 
+  
 
-
+  
       </article>
 
 
