@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -7,64 +8,216 @@
   <title>The Opinion of 23 — Ideas worth thinking about</title>
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
+
   <header class="site-header">
-    <a class="brand" href="index.html"><span class="brand-mark">23</span><span>The Opinion of 23<small data-en="Ideas worth thinking about" data-kn="ಆಲೋಚಿಸಲು ಯೋಗ್ಯವಾದ ವಿಚಾರಗಳು">Ideas worth thinking about</small></span></a>
+    <a class="brand" href="index.html">
+      <span class="brand-mark">23</span>
+      <span>
+        The Opinion of 23
+        <small data-en="Ideas worth thinking about"
+               data-kn="ಆಲೋಚಿಸಲು ಯೋಗ್ಯವಾದ ವಿಚಾರಗಳು">
+          Ideas worth thinking about
+        </small>
+      </span>
+    </a>
+
     <nav aria-label="Main navigation">
-      <a href="index.html" class="active" data-en="Home" data-kn="ಮುಖಪುಟ">Home</a>
-      <a href="#articles" data-en="Articles" data-kn="ಲೇಖನಗಳು">Articles</a>
-      <a href="about.html" data-en="About" data-kn="ನನ್ನ ಬಗ್ಗೆ">About</a>
-      
+      <a href="index.html" class="active"
+         data-en="Home" data-kn="ಮುಖಪುಟ">Home</a>
+      <a href="#articles"
+         data-en="Articles" data-kn="ಲೇಖನಗಳು">Articles</a>
+      <a href="about.html"
+         data-en="About" data-kn="ನನ್ನ ಬಗ್ಗೆ">About</a>
     </nav>
   </header>
+
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow" data-en="A personal journal of ideas" data-kn="ವೈಯಕ್ತಿಕ ಆಲೋಚನೆಗಳ ಬರಹ">A personal journal of ideas</p>
-        <h1><span data-en="Read the news." data-kn="ಸುದ್ದಿಯನ್ನು ಓದಿ.">Read the news.</span><br><em data-en="Think beyond it." data-kn="ಅದರಾಚೆಗೆ ಆಲೋಚಿಸಿ.">Think beyond it.</em></h1>
-        <p class="hero-text" data-en="Personal reflections on the events, ideas and questions shaping our world—from science and public policy to society and timeless wisdom." data-kn="ವಿಜ್ಞಾನ, ಸಾರ್ವಜನಿಕ ನೀತಿ, ಸಮಾಜ ಮತ್ತು ಕಾಲಾತೀತ ಜ್ಞಾನ ಸೇರಿದಂತೆ ನಮ್ಮ ಜಗತ್ತನ್ನು ರೂಪಿಸುವ ಘಟನೆಗಳು, ವಿಚಾರಗಳು ಮತ್ತು ಪ್ರಶ್ನೆಗಳ ಕುರಿತು ನನ್ನ ವೈಯಕ್ತಿಕ ಚಿಂತನೆಗಳು.">Personal reflections on the events, ideas and questions shaping our world—from science and public policy to society and timeless wisdom.</p>
-        <a class="button" href="#articles"><span data-en="Explore the articles" data-kn="ಲೇಖನಗಳನ್ನು ಓದಿ">Explore the articles</span><span aria-hidden="true">↗</span></a>
-      </div>
-      <div class="hero-art" role="img" aria-label="Abstract editorial illustration of a notebook, books and a reading lamp">
-        <div class="art-sun"></div><div class="art-book book-one"></div><div class="art-book book-two"></div>
-        <div class="art-paper"><span data-en="OBSERVE" data-kn="ಗಮನಿಸಿ">OBSERVE</span><span data-en="QUESTION" data-kn="ಪ್ರಶ್ನಿಸಿ">QUESTION</span><span data-en="REFLECT" data-kn="ಚಿಂತಿಸಿ">REFLECT</span></div>
-      </div>
-    </section>
-    <section class="intro-strip">
-      <span class="eyebrow" data-en="The approach" data-kn="ನನ್ನ ದೃಷ್ಟಿಕೋನ">The approach</span>
-      <p><span data-en="Not just what happened, but" data-kn="ಏನು ಸಂಭವಿಸಿತು ಎಂಬುದಷ್ಟೇ ಅಲ್ಲ,">Not just what happened, but</span> <strong data-en="what it means, why it matters, and what we can learn from it." data-kn="ಅದರ ಅರ್ಥವೇನು, ಅದು ಏಕೆ ಮುಖ್ಯ, ಅದರಿಂದ ನಾವು ಏನು ಕಲಿಯಬಹುದು ಎಂಬುದೂ ಮುಖ್ಯ.">what it means, why it matters, and what we can learn from it.</strong></p>
-    </section>
+
+    <!-- 1. ARTICLES FIRST -->
     <section class="articles-section" id="articles">
+
       <div class="section-heading">
-        <div><p class="eyebrow" data-en="The journal" data-kn="ಲೇಖನಗಳು">The journal</p><h2 data-en="Latest reflections" data-kn="ಇತ್ತೀಚಿನ ಚಿಂತನೆಗಳು">Latest reflections</h2></div>
-        <label class="filter-label"><span data-en="Filter by topic" data-kn="ವಿಷಯದ ಪ್ರಕಾರ ಆಯ್ಕೆಮಾಡಿ">Filter by topic</span>
-          <select id="categoryFilter" aria-label="Filter articles by category"><option value="All" data-en="All topics" data-kn="ಎಲ್ಲಾ ವಿಷಯಗಳು">All topics</option></select>
+        <div>
+          <p class="eyebrow"
+             data-en="The journal" data-kn="ಲೇಖನಗಳು">
+            The journal
+          </p>
+
+          <h2 data-en="Latest reflections"
+              data-kn="ಇತ್ತೀಚಿನ ಚಿಂತನೆಗಳು">
+            Latest reflections
+          </h2>
+        </div>
+
+        <label class="filter-label">
+          <span data-en="Filter by topic"
+                data-kn="ವಿಷಯದ ಪ್ರಕಾರ ಆಯ್ಕೆಮಾಡಿ">
+            Filter by topic
+          </span>
+
+          <select id="categoryFilter"
+                  aria-label="Filter articles by category">
+            <option value="All"
+                    data-en="All topics"
+                    data-kn="ಎಲ್ಲಾ ವಿಷಯಗಳು">
+              All topics
+            </option>
+          </select>
         </label>
       </div>
-      <div id="articleGrid" class="article-grid" aria-live="polite"></div>
+
+      <div id="articleGrid"
+           class="article-grid"
+           aria-live="polite">
+      </div>
+
     </section>
+
+
+    <!-- 2. INTRODUCTION TO THE BLOG -->
+    <section class="hero">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow"
+           data-en="A personal journal of ideas"
+           data-kn="ವೈಯಕ್ತಿಕ ಆಲೋಚನೆಗಳ ಬರಹ">
+          A personal journal of ideas
+        </p>
+
+        <h1>
+          <span data-en="Read the news."
+                data-kn="ಸುದ್ದಿಯನ್ನು ಓದಿ.">
+            Read the news.
+          </span>
+          <br>
+          <em data-en="Think beyond it."
+              data-kn="ಅದರಾಚೆಗೆ ಆಲೋಚಿಸಿ.">
+            Think beyond it.
+          </em>
+        </h1>
+
+        <p class="hero-text"
+           data-en="Personal reflections on the events, ideas and questions shaping our world—from science and public policy to society and timeless wisdom."
+           data-kn="ವಿಜ್ಞಾನ, ಸಾರ್ವಜನಿಕ ನೀತಿ, ಸಮಾಜ ಮತ್ತು ಕಾಲಾತೀತ ಜ್ಞಾನ ಸೇರಿದಂತೆ ನಮ್ಮ ಜಗತ್ತನ್ನು ರೂಪಿಸುವ ಘಟನೆಗಳು, ವಿಚಾರಗಳು ಮತ್ತು ಪ್ರಶ್ನೆಗಳ ಕುರಿತು ನನ್ನ ವೈಯಕ್ತಿಕ ಚಿಂತನೆಗಳು.">
+          Personal reflections on the events, ideas and questions shaping our world—from science and public policy to society and timeless wisdom.
+        </p>
+
+        <a class="button" href="#articles">
+          <span data-en="Explore the articles"
+                data-kn="ಲೇಖನಗಳನ್ನು ಓದಿ">
+            Explore the articles
+          </span>
+          <span aria-hidden="true">↗</span>
+        </a>
+
+      </div>
+
+      <div class="hero-art"
+           role="img"
+           aria-label="Abstract editorial illustration of a notebook, books and a reading lamp">
+
+        <div class="art-sun"></div>
+        <div class="art-book book-one"></div>
+        <div class="art-book book-two"></div>
+
+        <div class="art-paper">
+          <span data-en="OBSERVE" data-kn="ಗಮನಿಸಿ">OBSERVE</span>
+          <span data-en="QUESTION" data-kn="ಪ್ರಶ್ನಿಸಿ">QUESTION</span>
+          <span data-en="REFLECT" data-kn="ಚಿಂತಿಸಿ">REFLECT</span>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- 3. THE APPROACH -->
+    <section class="intro-strip">
+
+      <span class="eyebrow"
+            data-en="The approach"
+            data-kn="ನನ್ನ ದೃಷ್ಟಿಕೋನ">
+        The approach
+      </span>
+
+      <p>
+        <span data-en="Not just what happened, but"
+              data-kn="ಏನು ಸಂಭವಿಸಿತು ಎಂಬುದಷ್ಟೇ ಅಲ್ಲ,">
+          Not just what happened, but
+        </span>
+
+        <strong data-en="what it means, why it matters, and what we can learn from it."
+                data-kn="ಅದರ ಅರ್ಥವೇನು, ಅದು ಏಕೆ ಮುಖ್ಯ, ಅದರಿಂದ ನಾವು ಏನು ಕಲಿಯಬಹುದು ಎಂಬುದೂ ಮುಖ್ಯ.">
+          what it means, why it matters, and what we can learn from it.
+        </strong>
+      </p>
+
+    </section>
+
+
+    <!-- 4. ABOUT THE AUTHOR -->
+    <section class="intro-strip about-preview">
+
+      <span class="eyebrow">About the author</span>
+
+      <p>
+        I'm Rajesh M Patil, a curious mind who enjoys questioning
+        how things work and sharing perspectives on issues that
+        deserve discussion.
+
+        <a href="about.html">Read more about me ↗</a>
+      </p>
+
+    </section>
+
+
+    <!-- 5. DISCUSSION -->
     <section class="comments-section">
-    <h2>Join the Discussion</h2>
-    <p>Share your thoughts and perspectives.</p>
-    <div class="giscus"></div>
-  </section>
-  <script src="https://giscus.app/client.js"
-          data-repo="Rajesh777-king/The-Opinion-of-23"
-          data-repo-id="R_kgDOVD7YHA"
-          data-category="Q&A"
-          data-category-id="DIC_kwDOVD7YHM4DHgcD"
-          data-mapping="pathname"
-          data-strict="0"
-          data-reactions-enabled="1"
-          data-emit-metadata="0"
-          data-input-position="top"
-          data-theme="catppuccin_latte"
-          data-lang="en"
-          crossorigin="anonymous"
-          async>
-  </script>
+
+      <h2>Join the Discussion</h2>
+      <p>Share your thoughts and perspectives.</p>
+
+      <div class="giscus"></div>
+
+    </section>
+
+    <script src="https://giscus.app/client.js"
+            data-repo="Rajesh777-king/The-Opinion-of-23"
+            data-repo-id="R_kgDOVD7YHA"
+            data-category="Q&A"
+            data-category-id="DIC_kwDOVD7YHM4DHgcD"
+            data-mapping="pathname"
+            data-strict="0"
+            data-reactions-enabled="1"
+            data-emit-metadata="0"
+            data-input-position="top"
+            data-theme="catppuccin_latte"
+            data-lang="en"
+            crossorigin="anonymous"
+            async>
+    </script>
+
   </main>
-  <footer class="site-footer"><a class="footer-brand" href="index.html">The Opinion of 23</a><span data-en="Written with curiosity. Shared for discussion." data-kn="ಕುತೂಹಲದಿಂದ ಬರೆಯಲಾಗಿದೆ; ಚರ್ಚೆಗಾಗಿ ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ.">Written with curiosity. Shared for discussion.</span><span>© <span id="year"></span></span></footer>
+
+
+  <footer class="site-footer">
+
+    <a class="footer-brand" href="index.html">
+      The Opinion of 23
+    </a>
+
+    <span data-en="Written with curiosity. Shared for discussion."
+          data-kn="ಕುತೂಹಲದಿಂದ ಬರೆಯಲಾಗಿದೆ; ಚರ್ಚೆಗಾಗಿ ಹಂಚಿಕೊಳ್ಳಲಾಗಿದೆ.">
+      Written with curiosity. Shared for discussion.
+    </span>
+
+    <span>© <span id="year"></span></span>
+
+  </footer>
+
   <script src="script.js"></script>
+
 </body>
 </html>
