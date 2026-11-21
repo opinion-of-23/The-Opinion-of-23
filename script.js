@@ -5,6 +5,112 @@
 const articles = [
 
 {
+  slug: "The-Asha",
+  title: "The Hope Which is not a Abstract",
+  category: "Society & Healthcare",
+  date: "Opinion",
+  image: "assets/the-real-asha.png",
+  alt: "ASHA workers protesting for fair compensation and supporting community healthcare in Karnataka",
+  excerpt:
+    "The women working on the frontlines of community healthcare deserve more than recognition. Understanding who ASHA workers are, what they do, and why their work deserves greater support.",
+
+  paragraphs: [
+    "The women working on the frontlines of community healthcare deserve more than recognition.",
+
+    "This week, Bengaluru witnessed a protest by ASHA workers at Freedom Park. For four continuous days and nights, these women stood together, braving the cold and demanding that their concerns be heard.",
+
+    "But who exactly are these women? What do they do, what are they demanding, and why should we pay attention to their protest?",
+
+    "I wanted to understand the issue beyond the headlines. So, let's look at it through three important aspects: who ASHA workers are and what they do, what they are demanding, and finally, my perspective on the matter.",
+
+    "1. Who Are ASHA Workers, and What Do They Do?",
+
+    "ASHA stands for Accredited Social Health Activist. It is a community-based healthcare initiative that creates opportunities for women to serve as a link between local communities and the public healthcare system.",
+
+    "The initiative also provides women, including widowed and divorced women, an opportunity to become financially independent while contributing to the health and well-being of their communities.",
+
+    "Karnataka has approximately 41,000 ASHA workers.",
+
+    "In simple terms, they are the people who help public healthcare services reach the ground level. They act as a bridge between healthcare institutions and the communities they serve.",
+
+    "Their responsibilities are numerous and important. They help pregnant women access hospitals and healthcare facilities, particularly in rural areas. They create awareness about nutrition, encourage healthier practices, support women and children in accessing healthcare services, and help people understand and make use of available public health facilities.",
+
+    "You could say that they are the last-mile connect of our public healthcare system.",
+
+    "Their contribution was also particularly important during the COVID-19 pandemic, when community-level health awareness and outreach became essential.",
+
+    "Think about it: hospitals and healthcare institutions may have the infrastructure, doctors and facilities, but someone must ensure that people in every community can actually access these services. ASHA workers play a crucial role in making that possible.",
+
+    "2. What Are They Demanding?",
+
+    "The ongoing protest in Karnataka is primarily about their compensation.",
+
+    "ASHA workers are demanding an increase in their monthly payment to ₹15,000. At present, the amount they receive is approximately ₹8,000.",
+
+    "However, there is an important detail we need to understand about how this payment works.",
+
+    "Unlike a conventional salaried professional, an ASHA worker does not receive a fixed salary in the traditional sense. Their compensation is structured through different contributions and incentives, often referred to as an honorarium.",
+
+    "Based on the current payment structure described in this issue:",
+
+    "₹2,000 is provided by the Central Government.",
+
+    "₹5,000 is provided by the Karnataka State Government.",
+
+    "An additional ₹1,000 is provided by the State Government as support.",
+
+    "Together, these amounts add up to approximately ₹8,000.",
+
+    "This arrangement is important because it helps us understand that their compensation involves contributions from both the Central and State Governments.",
+
+    "Their demand is not simply about receiving a higher amount. It is also about whether the compensation they receive adequately reflects the responsibilities they carry and the essential services they provide.",
+
+    "3. My Opinion: Recognition Must Come With Responsibility",
+
+    "Personally, I do not think ₹8,000 is a fair amount for the work ASHA workers perform.",
+
+    "We are living in a time when the prices of essential commodities and everyday necessities keep changing. Managing household expenses, healthcare costs and other basic needs with such a limited amount is difficult. It is not reasonable to expect women who carry such important responsibilities to manage their lives without adequate financial support.",
+
+    "I understand that the government has introduced several welfare initiatives, and schemes such as Shakti and Gruha Lakshmi have helped people in different ways.",
+
+    "One interesting aspect of this issue is the discussion around whether ASHA workers would be eligible to benefit from these schemes. Initially, there were concerns about their eligibility, but the State Government defended their inclusion and clarified that they could benefit from these initiatives.",
+
+    "While such support is welcome, I believe it should not replace the need for fair compensation for the work they do.",
+
+    "My view is simple: their monthly compensation should be increased, and the government should also ensure that their financial security, healthcare needs and social welfare are properly taken care of.",
+
+    "There is another aspect that I feel we often overlook.",
+
+    "Instead of looking at ASHA workers only through the lens of financial assistance, why don't we recognise their potential and make greater use of their capabilities?",
+
+    "They already have direct connections with local communities. They understand the difficulties people face in accessing healthcare, particularly in rural areas. They have practical experience and are familiar with the health-related challenges within their communities.",
+
+    "Imagine what they could achieve if they were provided with proper training, encouragement, better working conditions and opportunities to take on greater responsibilities.",
+
+    "They could become an even stronger part of our public healthcare delivery system.",
+
+    "There is little point in having such a valuable workforce and ignoring its potential. Investing in their development would benefit not just the workers themselves, but also the communities and the healthcare system as a whole.",
+
+    "My Final Thoughts",
+
+    "The protest at Freedom Park should make us think beyond the immediate demand for an increase in compensation.",
+
+    "These women are working at the grassroots level, helping connect ordinary people with essential healthcare services. Their contribution deserves to be recognised not merely through words of appreciation, but through meaningful financial and institutional support.",
+
+    "A healthcare system becomes stronger when the people working at its foundation are supported, respected and given opportunities to grow.",
+
+    "We should not just acknowledge ASHA workers for the services they provide. We should ensure that they have the security, dignity and support they deserve.",
+
+    "After all, the people who take care of our communities deserve to be taken care of as well."
+  ],
+
+  sourceNote:
+    "This is an opinion article about ASHA workers in Karnataka, their contribution to community healthcare and their demand for better compensation. Verify the number of ASHA workers, protest duration, payment components and eligibility for welfare schemes against official sources before publication."
+},
+  
+  
+  
+  {
   slug: "price-hikes-rising-burden-common-people",
   title: "Price Hikes: The Rising Burden on the Common People",
   category: "Society & Economy",
