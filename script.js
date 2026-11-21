@@ -9,7 +9,7 @@ const articles = [
   title: "The Hope Which is not a Abstract",
   category: "Society & Healthcare",
   date: "Opinion",
-  image: "assets/ASHA Workers_ A Lifeline for Communities.png",
+  image: "assets/the-real-asha.png",
   alt: "ASHA workers protesting for fair compensation and supporting community healthcare in Karnataka",
   excerpt:
     "The women working on the frontlines of community healthcare deserve more than recognition. Understanding who ASHA workers are, what they do, and why their work deserves greater support.",
