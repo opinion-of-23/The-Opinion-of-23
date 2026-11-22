@@ -5,7 +5,7 @@
 const articles = [
 
 {
-  slug: "The-Asha",
+  slug: "The-asha",
   title: "The Hope Which is not a Abstract",
   category: "Society & Healthcare",
   date: "Opinion",
@@ -107,10 +107,10 @@ const articles = [
   sourceNote:
     "This is an opinion article about ASHA workers in Karnataka, their contribution to community healthcare and their demand for better compensation. Verify the number of ASHA workers, protest duration, payment components and eligibility for welfare schemes against official sources before publication."
 },
-  
-  
-  
-  {
+
+
+
+{
   slug: "price-hikes-rising-burden-common-people",
   title: "Price Hikes: The Rising Burden on the Common People",
   category: "Society & Economy",
